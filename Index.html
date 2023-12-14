@@ -1,75 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+  <!-- Metadatos -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <title>Spadagi Ramen Co.</title>
+  <meta name="description" content="Disfruta del mejor ramen en Spadagi Ramen Co.">
+  <meta name="keywords" content="Spadagi, Ramen, Comida Japonesa, Sopa, Fideos">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./Imagenes/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Estilos Personalizados -->
   <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/c93df8f435.js" crossorigin="anonymous"></script>
 
+  <!-- Título de la Página -->
+  <title>Spadagi Ramen Co.</title>
 </head>
 
-<header class="pato">
-  
-  
-  <div class="d-flex justify-content-between align-items-center "> 
-    
-    <a class="m-4" href="#"><img src="./Imagenes/logo.png" class="loguito" alt="Spadagi Ramen Co." > </a>
-    <h1 class="spadagui">Spadagi Ramen Co. </h1> 
-    <a class="m-4" href="#"><img src="./Imagenes/CARRITO.png" class="cart" alt="cartdecompras." ></a>
-  </div>
+<body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="Index.html">Inicio</a> 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="PRODUCTOS.html">Productos</a>
-          <a class="nav-link" href="QUIENES.html">Quienes somos</a>
-          <a class="nav-link" href="CONTACTO.html">Contacto</a>
-          <a class="nav-link" href="CARRITO.html">Carrito</a>
-          
+  <!-- Encabezado -->
+  <header class="pato">
+    <div class="d-flex justify-content-between align-items-center ">
+      <a class="m-4" href="#"><img src="./Imagenes/logo.png" class="loguito" alt="Spadagi Ramen Co."></a>
+      <h1 class="spadagui">Spadagi Ramen Co. </h1>
+      <a class="m-4" href="#"><img src="./Imagenes/CARRITO.png" class="cart" alt="cartdecompras."></a>
+    </div>
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="PRODUCTOS.html">Productos</a>
+            <a class="nav-link" href="QUIENES.html">Quienes somos</a>
+            <a class="nav-link" href="CONTACTO.html">Contacto</a>
+            <a class="nav-link" href="CARRITO.html">Carrito</a>
+          </div>
         </div>
       </div>
+    </nav>
+  </header>
+
+  <!-- Contenido Principal -->
+  <main>
+    <div class="imagen">
+      <img src="./Imagenes/foto.jpg" alt="Spadagi Ramen Co.">
     </div>
-  </nav>
- 
-</header>
 
-<main>
-  
-  <div class="imagen">
-    <img src="./Imagenes/foto.jpg" alt="Spadagi Ramen Co.">
-  </div>
+    <section>
+      <h1>Spadagi Ramen Co.</h1>
+      <p>El mejor ramen de la ciudad.</p>
+    </section>
+  </main>
 
-  <section>
-    <h1>Spadagi Ramen Co.</h1>
-    <p>
-      El mejor ramen de la ciudad.
-    </p>
-  </section>
-</main>
-<body>
-  
-
-    
-  </body>
+  <!-- Pie de Página -->
   <footer>
-    <p>
-      © 2023 Spadagi Ramen Co.
-    </p>
+    <p>© 2023 Spadagi Ramen Co.</p>
     <i class="fa-brands fa-facebook" style="color: #dde1e9;"></i>
     <i class="fa-brands fa-instagram" style="color: #d2d9e4;"></i>
-    <i class="fa-brands fa-whatsapp" style="color: #eceff4;"></i> 
-    
+    <i class="fa-brands fa-whatsapp" style="color: #eceff4;"></i>
   </footer>
 
-  
-
+  <!-- Bootstrap JS (se recomienda ponerlo al final del body para mejorar el rendimiento) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
 
 </html>
