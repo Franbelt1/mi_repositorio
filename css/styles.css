@@ -1,0 +1,559 @@
+/* inicio */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+
+.spadagui {
+  color: white;
+  text-align: center;
+  margin-right: 70%;
+  width: 100%;
+}
+
+.cart {
+  position: absolute;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.pato {
+  background-color: #ff2600;
+  height: auto;
+  justify-content: space-around;
+}
+
+.loguito {
+  width: 100px;
+  flex: auto;
+  border-radius: 50px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+section {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.redes {
+  width: 100px;
+}
+
+@media (max-width: 600px) {
+  header {
+    height: 50px;
+  }
+  section {
+    margin-top: 10px;
+  }
+}
+/*.imagen { 
+
+} */
+/* PRODUCTOS */
+.menu-productos {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-productos li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.menu-productos li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+
+.menu-productos li img {
+  width: 100px;
+  height: 100px;
+}
+
+.menu-productos li p {
+  margin-bottom: 10px;
+}
+
+.menu-productos li button {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.tonko {
+  width: 100px;
+  border-radius: 5px;
+}
+
+.miso {
+  width: 100px;
+  border-radius: 5px;
+}
+
+.shoyu {
+  width: 100px;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .menu-productos li {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* quienes somos */
+.quienes-somos .row {
+  flex-direction: row;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: #fff;
+  height: 100px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  margin-top: 20px;
+  min-height: 70vh;
+}
+
+.quienes-somos {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+
+@media (max-width: 600px) {
+  header {
+    height: 50px;
+  }
+  main {
+    margin-top: 10px;
+    min-height: 70vh;
+  }
+  .quienes-somos {
+    padding: 10px;
+  }
+}
+.dosamigos {
+  width: 500px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* CONTACTO */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: #fff;
+  height: 50px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  margin-top: 20px;
+  min-height: 70vh;
+}
+
+.contacto {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+
+.formulario {
+  width: 100%;
+  margin-top: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.info-contacto {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.info-contacto li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  header {
+    height: 50px;
+  }
+  main {
+    margin-top: 10px;
+    min-height: 70vh;
+  }
+  .contacto {
+    padding: 10px;
+  }
+  .formulario {
+    width: 100%;
+  }
+  input, textarea {
+    width: 100%;
+  }
+  button {
+    width: 100%;
+  }
+  .info-contacto {
+    text-align: center;
+  }
+}
+.mapa {
+  width: 200px;
+  height: 200px;
+  margin: 0 0 0 auto;
+}
+
+/* CARRITO */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: #fff;
+  height: 50px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  margin-top: 20px;
+  min-height: 70vh;
+}
+
+.carritos {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.total {
+  text-align: right;
+}
+
+.botones {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  header {
+    height: 50px;
+  }
+  main {
+    margin-top: 10px;
+    min-height: 70vh;
+  }
+  .carrito {
+    padding: 10px;
+  }
+  table {
+    width: 100%;
+  }
+  table th, table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  .total {
+    text-align: center;
+  }
+  .botones {
+    text-align: center;
+    border: 1px solid black;
+  }
+}
+/* Variables */
+/* Estilos comunes */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+
+.spadagui {
+  color: white;
+  text-align: center;
+  margin-right: 70%;
+  width: 100%;
+}
+
+.cart {
+  position: absolute;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+/* Productos */
+.menu-productos {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-productos li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.menu-productos li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+.menu-productos li img {
+  width: 100px;
+  height: 100px;
+}
+.menu-productos li p {
+  margin-bottom: 10px;
+}
+.menu-productos li button {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Quienes somos */
+.quienes-somos {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+.quienes-somos .row {
+  flex-direction: row;
+}
+.quienes-somos h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.quienes-somos p {
+  margin-bottom: 10px;
+}
+.quienes-somos a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+@media (max-width: 600px) {
+  .quienes-somos {
+    padding: 10px;
+  }
+}
+.quienes-somos .dosamigos {
+  width: 500px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Contacto */
+.contacto {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+.contacto h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.contacto p {
+  margin-bottom: 10px;
+}
+.contacto a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+.contacto .formulario {
+  width: 100%;
+  margin-top: 20px;
+}
+.contacto .formulario input, .contacto .formulario textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.contacto .formulario button {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.contacto .info-contacto {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.contacto .info-contacto li {
+  margin-bottom: 10px;
+}
+@media (max-width: 600px) {
+  .contacto {
+    padding: 10px;
+  }
+  .contacto .formulario {
+    width: 100%;
+  }
+  .contacto .formulario input, .contacto .formulario textarea {
+    width: 100%;
+  }
+  .contacto .formulario button {
+    width: 100%;
+  }
+  .contacto .info-contacto {
+    text-align: center;
+  }
+}
+.contacto .mapa {
+  width: 200px;
+  height: 200px;
+  margin: 0 0 0 auto;
+}
+
+/* Carrito */
+.carritos {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+.carritos h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.carritos table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.carritos table th, .carritos table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.carritos .total {
+  text-align: right;
+}
+.carritos .botones {
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .carritos .botones {
+    border: 1px solid black;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
