@@ -619,3 +619,150 @@ body {
     }
   }
 }
+/* Variables */
+$red-color: #ff2600;
+$button-bg-color: #ff0000;
+$button-text-color: #fff;
+
+/* Estilos comunes */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Agregamos una transición para el color de fondo del body */
+}
+
+/* Header */
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  transition: height 0.3s ease; /* Agregamos una transición para la altura del header */
+}
+
+.spadagui {
+  color: white;
+  text-align: center;
+  margin-right: 70%;
+  width: 100%;
+  transition: margin-right 0.3s ease; /* Agregamos una transición para el margen derecho */
+}
+
+.cart {
+  position: absolute;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease; /* Agregamos una transición para la transformación */
+}
+
+/* Agregamos un efecto de escala en hover para el carrito */
+.cart:hover {
+  transform: scale(1.1);
+}
+
+/* Productos */
+.menu-productos {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-productos li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease; /* Agregamos una transición para la transformación */
+}
+
+.menu-productos li:hover {
+  transform: scale(1.05);
+}
+
+.menu-productos li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+
+.menu-productos li img {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s ease; /* Agregamos una transición para la transformación */
+}
+
+.menu-productos li:hover img {
+  transform: rotate(360deg);
+}
+
+.menu-productos li p {
+  margin-bottom: 10px;
+}
+
+.menu-productos li button {
+  background-color: $button-bg-color;
+  color: $button-text-color;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Agregamos una transición para el color de fondo */
+}
+
+.menu-productos li button:hover {
+  background-color: darken($button-bg-color, 10%); /* Hacemos el fondo un poco más oscuro en hover */
+}
+
+/* Quienes somos */
+.quienes-somos {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* Agregamos una animación de rotación a la imagen de dos amigos */
+.dosamigos {
+  width: 500px;
+  display: inline-block;
+  text-align: center;
+  transition: transform 0.5s ease; /* Agregamos una transición para la transformación */
+}
+
+.dosamigos:hover {
+  transform: rotate(360deg);
+}
+
+/* Contacto */
+.contacto {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* Agregamos una animación de zoom a los íconos en hover */
+.info-contacto i {
+  font-size: 24px;
+  transition: transform 0.3s ease; /* Agregamos una transición para la transformación */
+}
+
+.info-contacto i:hover {
+  transform: scale(1.2);
+}
+
+/* Carrito */
+.carritos {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* Agregamos una transición para los botones en hover */
+.botones a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: $button-bg-color;
+  color: $button-text-color;
+  transition: background-color 0.3s ease; /* Agregamos una transición para el color de fondo */
+}
+
+.botones a:hover {
+  background-color: darken($button-bg-color, 10%); /* Hacemos el fondo un poco más oscuro en hover */
+}
